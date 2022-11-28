@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Human Form</title>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="functions.js"></script>
+</head>
+
+<body>
+
+    <h1>
+      Human Form
+    </h1>
+
+    <p>
+      Please fill out so I can see if you are a suitable human for my needs.
+    </p>
+
+  <form action="">
+    <fieldset>
+      <legend>Full Name:</legend>
+
+      <label for="">First Name</label>
+      <input type="text"> <br>
+
+      <label for="">Middle Initial</label>
+      <input type="text"> <br>
+
+      <label for="">Last Name</label>
+      <input type="text"> <br>
+  </fieldset>
+  </form>
+
+
+
+  <form action="">
+    <fieldset>
+      <legend>Birth & Living Place:</legend>
+
+      <label for="">Date of birth</label>
+      <input type="date"> <br>
+
+      <label for="">Place of birth (City, State)</label>
+      <input type="text"> <br>
+
+      <label for="">Current Residency (City, State)</label>
+      <input type="text"> <br>
+    </fieldset>
+  </form>
+
+  <form action="">
+    <fieldset>
+      <legend>Gender:</legend>
+
+      <label for="Male">Male</label>
+      <input type="radio" name="Gender" id="Male"> <br>
+
+      <label for="Female">Female</label>
+      <input type="radio" name="Gender" id="Female" onclick="correct();"> <br>
+
+      <label for="Other">Other</label>
+      <input type="radio" name="Gender" id="Other"> <br>
+    </fieldset>
+  </form>
+
+  <form action="">
+
+      <label for=""></label>
+      <input type="submit" onclick="thanks();"> <br>
+
+  </form>
+</body>
+</html>
